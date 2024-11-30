@@ -1,0 +1,170 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void BasicRigidBodyPush_OnControllerColliderHit_mAB4A1B5340D41961D9592034FE626BC8A8FC379E (void);
+extern void BasicRigidBodyPush_PushRigidBodies_m21C4CA75FFF7646BCD91E9A673B18E6182377D13 (void);
+extern void BasicRigidBodyPush__ctor_mCD0033473AC08BFF32309E49AE95271C711099A9 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+extern void StarterAssetsInputs_OnMove_m1037EAE12A06BEF9F73CAF4A3127C6A9CF4D6532 (void);
+extern void StarterAssetsInputs_OnLook_m457792363F0A68571BD7A917C44B1A0B1C5D7EC4 (void);
+extern void StarterAssetsInputs_OnJump_m077D720656D5B78D423A5D7E0194BA2D9DE089E4 (void);
+extern void StarterAssetsInputs_OnSprint_m8FF0D36964527B10A1A14E55A9EE4025C1AFF0EF (void);
+extern void StarterAssetsInputs_MoveInput_m3553E545D85710A8A35A09A0A624E9BC348169C5 (void);
+extern void StarterAssetsInputs_LookInput_m5682ACA7D0052E2ACDE0EA0C3BFDB7F954F838EE (void);
+extern void StarterAssetsInputs_JumpInput_mE2329C36E72EBF6402D6EB5A98157D6CFB86FD3F (void);
+extern void StarterAssetsInputs_SprintInput_mDF94C59888EE49486AC87435D3EC2C1776045A20 (void);
+extern void StarterAssetsInputs_OnApplicationFocus_m461C49F2AC387B76D98B87A98BA38A0289C34EA9 (void);
+extern void StarterAssetsInputs_SetCursorState_m7D2F57E935DE40673700B1994EFA6C4BF9573D0E (void);
+extern void StarterAssetsInputs__ctor_m1A0CAEE3381A63077E196B7C815859617C9BCDBA (void);
+extern void FirstPersonController_get_IsCurrentDeviceMouse_mBD2A02E3A33E0A4074283C7CD2C40BAC507278B0 (void);
+extern void FirstPersonController_Awake_m97115C4294DCE20924F5649107DF575C3BF59A3F (void);
+extern void FirstPersonController_Start_m73BF516410ACFA61B3E3745C037FED856B180689 (void);
+extern void FirstPersonController_Update_mA9100327050EDD5A4EDFC1F770FD65E9E4F44A64 (void);
+extern void FirstPersonController_LateUpdate_mDD87A9960299EB96B38E5DC1359C350B6F679A98 (void);
+extern void FirstPersonController_GroundedCheck_mBD7B0C905A60ED82AD81BD5E8124C309688AB5D6 (void);
+extern void FirstPersonController_CameraRotation_m8D6B31A95A1DDF1B34ECD3806E6052F255781D8D (void);
+extern void FirstPersonController_Move_mD3B86419A063305FAF1598ED1FDE790B407A20F3 (void);
+extern void FirstPersonController_JumpAndGravity_mE8E57E5D89BE4289C81F1D668AB99588356FD44A (void);
+extern void FirstPersonController_ClampAngle_m2B9F299C2F735DBC14DD608696F8515B1428F5C8 (void);
+extern void FirstPersonController_OnDrawGizmosSelected_m99F84F3AB717811D6824B6E38099E4B39811D2D7 (void);
+extern void FirstPersonController__ctor_mF29161500094F25943059DAFCA9CABCC1F1BA3A5 (void);
+extern void ThirdPersonController_get_IsCurrentDeviceMouse_m5EBE0107CBD975A6178FCE2840C3D159A13C6D9C (void);
+extern void ThirdPersonController_Awake_mE08F39AEA7E4CE2E15C7828E9C24AC4CE9C487C3 (void);
+extern void ThirdPersonController_Start_m99AC2EAB6D2136A754B1B9B2E001732ED198D7E7 (void);
+extern void ThirdPersonController_Update_mAFF4B3A14DCC2D6F6C5D318C41DFC61F3EDE43C5 (void);
+extern void ThirdPersonController_LateUpdate_m02FBD3801F369821F2FEF5ADD8890B3FB9759BC0 (void);
+extern void ThirdPersonController_AssignAnimationIDs_m3F78712E347AAEB24671FD485878AD4EFB45FA6A (void);
+extern void ThirdPersonController_GroundedCheck_mEC00FD7C667109275F153C9A1E7BDA401D514AEE (void);
+extern void ThirdPersonController_CameraRotation_m24BBAE5DB2B55B6DDC5218DD0DB7C53F1EF30751 (void);
+extern void ThirdPersonController_Move_m6FB6A9AEA1B2354BAE790DE45C79292579802C76 (void);
+extern void ThirdPersonController_JumpAndGravity_m871B3C01ED71022CF151700F569540EAC058997F (void);
+extern void ThirdPersonController_ClampAngle_m8C3245A45B5FB84338F87BEAECEEE36E3C53B2B6 (void);
+extern void ThirdPersonController_OnDrawGizmosSelected_mCD3D7F711815BC95C166CB8E67F3C5D085C38BA5 (void);
+extern void ThirdPersonController_OnFootstep_mFE54F581AB0F72FC34208BCB6ABF77311BCC3D02 (void);
+extern void ThirdPersonController_OnLand_mAF1A04288C4B0ED39ACA52599F18D059F78D41C8 (void);
+extern void ThirdPersonController__ctor_mA2ECE265C51A281DA13F2344E30363399DD64321 (void);
+static Il2CppMethodPointer s_methodPointers[43] = 
+{
+	BasicRigidBodyPush_OnControllerColliderHit_mAB4A1B5340D41961D9592034FE626BC8A8FC379E,
+	BasicRigidBodyPush_PushRigidBodies_m21C4CA75FFF7646BCD91E9A673B18E6182377D13,
+	BasicRigidBodyPush__ctor_mCD0033473AC08BFF32309E49AE95271C711099A9,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+	StarterAssetsInputs_OnMove_m1037EAE12A06BEF9F73CAF4A3127C6A9CF4D6532,
+	StarterAssetsInputs_OnLook_m457792363F0A68571BD7A917C44B1A0B1C5D7EC4,
+	StarterAssetsInputs_OnJump_m077D720656D5B78D423A5D7E0194BA2D9DE089E4,
+	StarterAssetsInputs_OnSprint_m8FF0D36964527B10A1A14E55A9EE4025C1AFF0EF,
+	StarterAssetsInputs_MoveInput_m3553E545D85710A8A35A09A0A624E9BC348169C5,
+	StarterAssetsInputs_LookInput_m5682ACA7D0052E2ACDE0EA0C3BFDB7F954F838EE,
+	StarterAssetsInputs_JumpInput_mE2329C36E72EBF6402D6EB5A98157D6CFB86FD3F,
+	StarterAssetsInputs_SprintInput_mDF94C59888EE49486AC87435D3EC2C1776045A20,
+	StarterAssetsInputs_OnApplicationFocus_m461C49F2AC387B76D98B87A98BA38A0289C34EA9,
+	StarterAssetsInputs_SetCursorState_m7D2F57E935DE40673700B1994EFA6C4BF9573D0E,
+	StarterAssetsInputs__ctor_m1A0CAEE3381A63077E196B7C815859617C9BCDBA,
+	FirstPersonController_get_IsCurrentDeviceMouse_mBD2A02E3A33E0A4074283C7CD2C40BAC507278B0,
+	FirstPersonController_Awake_m97115C4294DCE20924F5649107DF575C3BF59A3F,
+	FirstPersonController_Start_m73BF516410ACFA61B3E3745C037FED856B180689,
+	FirstPersonController_Update_mA9100327050EDD5A4EDFC1F770FD65E9E4F44A64,
+	FirstPersonController_LateUpdate_mDD87A9960299EB96B38E5DC1359C350B6F679A98,
+	FirstPersonController_GroundedCheck_mBD7B0C905A60ED82AD81BD5E8124C309688AB5D6,
+	FirstPersonController_CameraRotation_m8D6B31A95A1DDF1B34ECD3806E6052F255781D8D,
+	FirstPersonController_Move_mD3B86419A063305FAF1598ED1FDE790B407A20F3,
+	FirstPersonController_JumpAndGravity_mE8E57E5D89BE4289C81F1D668AB99588356FD44A,
+	FirstPersonController_ClampAngle_m2B9F299C2F735DBC14DD608696F8515B1428F5C8,
+	FirstPersonController_OnDrawGizmosSelected_m99F84F3AB717811D6824B6E38099E4B39811D2D7,
+	FirstPersonController__ctor_mF29161500094F25943059DAFCA9CABCC1F1BA3A5,
+	ThirdPersonController_get_IsCurrentDeviceMouse_m5EBE0107CBD975A6178FCE2840C3D159A13C6D9C,
+	ThirdPersonController_Awake_mE08F39AEA7E4CE2E15C7828E9C24AC4CE9C487C3,
+	ThirdPersonController_Start_m99AC2EAB6D2136A754B1B9B2E001732ED198D7E7,
+	ThirdPersonController_Update_mAFF4B3A14DCC2D6F6C5D318C41DFC61F3EDE43C5,
+	ThirdPersonController_LateUpdate_m02FBD3801F369821F2FEF5ADD8890B3FB9759BC0,
+	ThirdPersonController_AssignAnimationIDs_m3F78712E347AAEB24671FD485878AD4EFB45FA6A,
+	ThirdPersonController_GroundedCheck_mEC00FD7C667109275F153C9A1E7BDA401D514AEE,
+	ThirdPersonController_CameraRotation_m24BBAE5DB2B55B6DDC5218DD0DB7C53F1EF30751,
+	ThirdPersonController_Move_m6FB6A9AEA1B2354BAE790DE45C79292579802C76,
+	ThirdPersonController_JumpAndGravity_m871B3C01ED71022CF151700F569540EAC058997F,
+	ThirdPersonController_ClampAngle_m8C3245A45B5FB84338F87BEAECEEE36E3C53B2B6,
+	ThirdPersonController_OnDrawGizmosSelected_mCD3D7F711815BC95C166CB8E67F3C5D085C38BA5,
+	ThirdPersonController_OnFootstep_mFE54F581AB0F72FC34208BCB6ABF77311BCC3D02,
+	ThirdPersonController_OnLand_mAF1A04288C4B0ED39ACA52599F18D059F78D41C8,
+	ThirdPersonController__ctor_mA2ECE265C51A281DA13F2344E30363399DD64321,
+};
+static const int32_t s_InvokerIndices[43] = 
+{
+	7537,
+	7537,
+	9541,
+	16057,
+	9541,
+	7537,
+	7537,
+	7537,
+	7537,
+	7673,
+	7673,
+	7400,
+	7400,
+	7400,
+	7400,
+	9541,
+	9236,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	11935,
+	9541,
+	9541,
+	9236,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	9541,
+	11935,
+	9541,
+	7537,
+	7537,
+	9541,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	43,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
